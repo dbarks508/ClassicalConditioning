@@ -1,0 +1,56 @@
+<!-- 
+Author: 		Dylan Barks
+Last Edited: 	12/8/21
+Description: 	inquire.html page for Classical Conditioning - an online rock climbing coaching service
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact::Classical conditioning</title>
+<meta charset="utf-8" />
+<meta name="description" content="Inquire about Classical Conditioning, an online, 
+	rock climbing coaching platform that offers
+	affordable, affective and proven coaching methods from one of the nation's top athletes." />
+<link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+<div id="page">
+<header><a href="index.html"><img id="logo" src="images/logo.png" alt="logo">Classical Conditioning</a></header>
+<nav>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="philosophy.html">Philosophy</a></li>
+<li><a href="rates.html">Rates</a></li>
+<li><a href="amIRight.html">Am I Right?</a></li>
+<li><a href="inquire.html">Inquire</a></li>
+</ul>
+</nav>
+<h1 class="centertext">Inquire Coaching</h1>
+<form id="inquireForm" action="results.php" method="post" novalidate="novalidate">
+Full name:<input type="text" id="name" name="name" /><br />
+When are you looking to start?<input type="date" id="startdate" name="startdate" /><br />
+What's your home climbing area:<input type="text" id="location" name="location"/><br />
+email:<input type="text" id="email" name="email" /><br />
+Zip Code (enter and hit TAB):<input type="number" name="zipcode" id="zipcode" /><br />
+City:<input type="text" name="city" id="city" /><br />
+state:<input type="text" name="state" id="state" list="stateList"
+	size="3" maxlength="2" /><br />
+<div id="ajaxState">
+<datalist id="stateList"></datalist>
+</div>
+<textarea id="textArea1" name="textArea1" cols="50" rows="10" placeholder="Briefly introduce yourself and 
+describe your climbing background.">
+</textarea>
+<textarea id="textArea2" name="textArea2" cols="50" rows="10" placeholder="Please describe what you are looking to get 
+out of coaching.">
+</textarea>
+<input type="submit" name="submitBtn" value="Submit" />
+</form>
+<p id="errordiv"></p>
+</div>
+<script src="scripts/inquire.js"></script>
+<script src="scripts/ajax-framework.js"></script>
+<script src="scripts/ajax-dropdown.js"></script>
+<script src="scripts/ajax-eventListeners.js"></script>
+</body>
+</html>

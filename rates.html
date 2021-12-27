@@ -1,0 +1,46 @@
+<!-- 
+Author: 		Dylan Barks
+Last Edited: 	12/8/21
+Description: 	rates.html page for Classical Conditioning - an online rock climbing coaching service
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Rates::Classical conditioning</title>
+<meta charset="utf-8" />
+<meta name="description" content="Calculate the price of Classical Conditioning, an online, 
+	rock climbing coaching platform that offers
+	affordable, affective and proven coaching methods from one of the nation's top athletes." />
+<link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+<div id="page">
+<header><a href="index.html"><img id="logo" src="images/logo.png" alt="logo">Classical Conditioning</a></header>
+<nav>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="philosophy.html">Philosophy</a></li>
+<li><a href="rates.html">Rates</a></li>
+<li><a href="amIRight.html">Am I Right?</a></li>
+<li><a href="inquire.html">Inquire</a></li>
+</ul>
+</nav>
+<h1 class="centertext">Rates</h1>
+<img src="images/newWhatsTheScoop.jpg" id="scoopImage" alt="bouldering picture" />
+<p id="rates" >
+Classical Conditioning hopes to offer affective coaching at an affordable price.
+Our costs are $15 dollars/ weekly-session/ month. On top of this we charge $10/ weekly-check-in/ month. 
+These check-ins are for going over the training for the upcoming week, as well as for making any necessary tweaks
+in the plan. Use the calculator below to get a price estimate!
+</p>
+<div id="calculator" >
+Training days per week:<input type="text" id="days" /><br />
+Check-ins per week:<input type="text" id="checkins" /><br />
+Number of months:<input type="text" id="months" /><br />
+<input id="compute" type="button" value="compute" /><br />
+<p id="total"></p>
+</div>
+</div>
+<script src="scripts/rates.js"></script>
+</body>
+</html>

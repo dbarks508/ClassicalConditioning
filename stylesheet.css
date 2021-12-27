@@ -1,0 +1,327 @@
+/* 
+Author: 		Dylan Barks
+Last edited: 	12/9/21
+Description: 	External stylesheet for index.html, about.html, philosophy.html, amIRight.html,
+					rates.html, and philosophy.html for Classical Conditioning website
+ */
+
+#errorDiv{
+	padding:5px;
+	margin-top: 5px;
+}
+#errordiv{
+	width: 250px;
+	margin-left: 250px;
+}
+#showFit {
+	float: right;
+	margin-right: 225px;
+	background-color: #E0E0E0;
+	font-size: 30px;
+	width: 800px;
+	height: 300px;
+}
+#formEntry{
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	padding: 20px;
+	float: left;
+}
+#inquireForm{
+	margin-left: 10%;
+	margin-right: 50%;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	padding: 20px;
+}
+#levelQuestion{
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+#inquirelink{
+	padding: 10px;
+	margin-top: 40px;
+	text-align: center;
+}
+header { 
+	font-size: 75px;
+	Font-weight: bold;
+	text-align: center; }
+#page { 
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #008B8B;
+
+	}
+#logo{
+	width: 75px;
+	height: 100px; }
+#level{ 
+	margin-left: auto;
+	margin-right: auto;	}
+#username{ 
+	margin-left: auto;
+	margin-right: auto;	}
+#submit{ 
+	margin-left: auto;
+	margin-right: auto; }
+#ability{
+	font-size: 25px;
+	text-decoration: underline;	}
+#levelQuestion{
+	padding-bottom: 10px;	}
+h1{ 
+	font-size: 50px;
+	font-weight: bold;
+	text-decoration: underline; }
+header a {
+	text-decoration: none; }
+header a:link{
+	color: black; }
+header a:hover{
+	color: orange; }
+header a:visited{ 
+	color: black; }
+h2{
+	font-size: 35px;
+	text-decoration: underline; }
+p{ 
+	font-family: georgia;
+	font-size: 20px; }
+nav {
+	margin: 30px 50px;
+	text-align: center;
+	border-top: solid 5px;
+	border-bottom: solid 5px;
+	font-size: 30px; }
+nav li { 
+	list-style-type: none;
+	display: inline;
+	padding: 40px; }
+nav a{
+	text-decoration: none; }
+nav a:link{
+	color: black; }
+nav a:hover{
+	color: orange; }
+nav a:visited{ 
+	color: #7FFFD4; }
+header a:link{
+	color: black; }
+header a:hover{
+	color: orange; }
+header a:visited{ 
+	color: black; }
+ol li{
+	font-size: 30px; }
+#content{
+	text-align: center;
+	margin: 20px 20px; }
+#improve{ 
+	float: left;
+	width: 40%;
+	margin: 30px 30px;
+	padding: 10px; }
+#help{ 
+	float: left;
+	width: 40%;
+	margin: 30px 30px;
+	padding: 10px; }
+#dyno{ 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	 }
+.floatright{
+	float: right;
+}
+.clearfloatRight{
+	clear: right;
+}
+.clearfloat{ 
+	clear: left; }
+.clearfloats{
+	clear: right;
+	clear: left;}
+footer{
+	text-align: center;
+	margin-top: 50px;
+	font-style: italic; }
+.centertext{
+	text-align: center;}
+#boxcontainer{
+	display: flex;
+	justify-content: center;
+	margin: 10px 10px;}
+#box1{ 
+	width: 40%; }
+#box img{
+	height: auto;
+	width: 100%;}
+#box2{
+	background-color: #7FFFD4;
+	Width: 60%; }
+#aboutdylan{
+	padding: 10px;
+	margin: 10px 15px;}
+h3{
+	text-align: center;}
+#links{
+	font-size: 20px;
+	padding: 10px;
+	margin: 40px 10px;}
+table{
+	width: 70%;
+	margin: auto;
+	background-color: #7FFFD4; }
+table, td, th{
+	border: 2px solid #000;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 30px;}
+th{
+	text-align: center;}
+td{
+	padding: 10px;
+	text-align: center;}
+caption{
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 20px;}
+#rates{
+	font-size: 25px;
+	float: right;
+	padding: 10px;
+	width: 35%;
+	margin-top: 5%;
+	background-color: #E0E0E0;}
+#scoopImage{
+	float: left;
+}
+#calculator{
+	margin-top: 28%;
+	margin-left: 60%;
+	margin-right: 21%;
+	padding: 50px;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-right: solid 2px;
+	border-left: solid 2px;
+	
+}
+#aside{
+	float: left;
+	width: 20%;
+	border: 1px solid;
+	font-style: italic;}
+#formEntry{
+	margin-left: 150px;}
+label{
+	float: left; 
+	clear: left;
+	display: block;
+	width: 100px;
+	padding-right: 10px;
+	text-align: right;
+	margin-top: 5px;}
+input{
+	display: block;
+	margin-top: 10px;}
+select{
+	display: block;
+	margin-top: 10px;}
+textarea{
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px;}
+button{
+	display: block;
+	margin-top: 10px;
+	margin-left: 110px;}
+#hero{
+	background-image: url("images/hero.jpg");
+	background-size: cover;
+	width: 95%;
+	height: 800px;
+	margin: 30px 30px; }
+#heroinfo{
+	display: block;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin: 50px 0px;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.25);}
+dl{
+	padding: 20px;
+	}
+dl dt{
+	font-size: 30px;
+	margin: 10px;
+	text-decoration: underline;}
+dl dd{
+	font-size: 20px;
+	margin: 10px;}
+
+/* media query */
+@media(max-width: 1124px){
+h1{ 
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline; }
+header { 
+	font-size: 50px;
+	Font-weight: bold;
+	text-align: center; }
+p{ 
+	font-family: georgia;
+	font-size: 15px; }
+nav {
+	margin: 30px 50px;
+	text-align: center;
+	border-top: solid 5px;
+	border-bottom: solid 5px;
+	font-size: 15px; }
+nav li { 
+	list-style-type: none;
+	display: inline;
+	padding: 5px; }
+ol li{
+	font-size: 20px; }
+}
+
+/* media query */
+@media(max-width: 600px){
+h1{ 
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline; }
+header { 
+	font-size: 30px;
+	Font-weight: bold;
+	text-align: center; }
+p{ 
+	font-family: georgia;
+	font-size: 12px; }
+nav {
+	margin: 20px 40px;
+	text-align: center;
+	border-top: solid 5px;
+	border-bottom: solid 5px;
+	font-size: 12px; }
+ol li{
+	font-size: 20px; }
+}

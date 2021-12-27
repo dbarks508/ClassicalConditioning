@@ -1,0 +1,51 @@
+<!-- 
+Author: 		Dylan Barks
+Last Edited: 	12/8/21
+Description: 	amIRight.html page for Classical Conditioning - an online rock climbing coaching service
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact::Classical conditioning</title>
+<meta charset="utf-8" />
+<meta name="description" content="Learn if you are a good fit for Classical Conditioning, an online, 
+	rock climbing coaching platform that offers
+	affordable, affective and proven coaching methods from one of the nation's top athletes." />
+<link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+<div id="page">
+<header><a href="index.html"><img id="logo" src="images/logo.png" alt="logo">Classical Conditioning</a></header>
+<nav>
+<ul>
+<li><a href="about.html">About</a></li>
+<li><a href="philosophy.html">Philosophy</a></li>
+<li><a href="rates.html">Rates</a></li>
+<li><a href="amIRight.html">Am I Right?</a></li>
+<li><a href="inquire.html">Inquire</a></li>
+</ul>
+</nav>
+<h1 class="centertext">Is Classical Conditioning a good fit for me?</h1>
+<div id="formEntry">
+Years climbing:<input type="text" id="years" /><br />
+Age:<input type="text" id="age" /><br />
+Hardest V-grade climbed: <input type="text" id="grade" />
+<input type="button" id="euroButton" value="see" />
+Euro Equivalent:<div id="euroGrade"></div><br />
+Hours available per week:<input type="text" id="hours" /><br />
+<br>
+<button id="fitButton" type="button">Check My Fit</button>
+<div id="messageDiv"></div>
+<div id="errorDiv"></div>
+</div>
+<ul id="showFit">
+</ul>
+<p id="inquirelink" class="clearfloats">
+If all four of your fits look good, proceed to the <a href="inquire.html">inquire</a> page
+</p>
+</div>
+<script src="scripts/amIRight.js"></script>
+<script src="scripts/gradeFramework-ajax.js"></script>
+<script src="scripts/gradeEventListener-ajax.js"></script>
+</body>
+</html>
